@@ -24,7 +24,7 @@ if acc3<85:
         print("Not required")
         exit()
     os.system("sed -i '/softmax/ i {}' /code/train.py".format(y))
-    os.system("curl -u admin:Daksh2000$ http://192.168.99.101:8080/view/mlops_task/job/mlops_job1/build?token=daksh")
+    os.system("curl -u admin:kohl$ http://192.168.99.101:8080/job/mlops2/build?token=jarvis")
     acc = os.popen("cat /code/accuracy.txt")
     acc1 = acc.read()
     print(acc1)
